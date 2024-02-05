@@ -2,7 +2,7 @@ Source: ncpamixer
 Section: sound
 Priority: optional
 Maintainer: Vítězslav Dvořák <info@vitexsoftware.cz>
-Build-Depends: debhelper-compat (= 13), libncurses-dev, libpulse-dev, pandoc
+Build-Depends: debhelper-compat (= 13), libncurses-dev, libpulse-dev, pandoc, cmake
 Standards-Version: 4.5.1
 Homepage: https://github.com/fulhax/ncpamixer
 Rules-Requires-Root: no
