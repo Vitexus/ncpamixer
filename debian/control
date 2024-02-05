@@ -1,0 +1,17 @@
+Source: ncpamixer
+Section: sound
+Priority: optional
+Maintainer: Vítězslav Dvořák <info@vitexsoftware.cz>
+Build-Depends: debhelper-compat (= 13), libncurses-dev, libpulse-dev, pandoc
+Standards-Version: 4.5.1
+Homepage: https://github.com/fulhax/ncpamixer
+Rules-Requires-Root: no
+Vcs-Git: git@github.com:Vitexus/ncpamixer.git
+Vcs-Browser: https://github.com/Vitexus/ncpamixer
+
+Package: ncpamixer
+Architecture: any
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: ncurses PulseAudio Mixer
+ An ncurses mixer for PulseAudio inspired by pavucontrol.

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="console-application">
+  <id>io.github.fulhax.ncpamixer</id>
+  
+  <name>ncpamixer</name>
+  <summary>ncurses PulseAudio Mixer</summary>
+  
+  <metadata_license>MIT</metadata_license>
+  <project_license>MIT</project_license>
+  
+  <description>
+    <p>
+      An ncurses mixer for PulseAudio inspired by pavucontrol.
+    </p>
+  </description>
+  
+  <icon type="stock">ncpamixer</icon>
+  
+  <categories>
+    <category>AudioVideo</category>
+    <category>Mixer</category>
+  </categories>
+  
+  <provides>
+    <binary>ncpamixer</binary>
+  </provides>
+</component>
+
