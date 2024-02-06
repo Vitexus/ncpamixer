@@ -1,8 +1,9 @@
 debian/io.github.fulhax.ncpamixer.metainfo.xml /usr/share/metainfo/
-ico/64/*.png usr/share/icons/hicolor/64/apps/
-ico/128/*.png usr/share/icons/hicolor/128/apps/
-ico/256/*.png usr/share/icons/hicolor/256/apps/
-ico/1024/*.png usr/share/icons/hicolor/1024/apps/
+debian/ico/64/*.png usr/share/icons/hicolor/64/apps/
+debian/ico/128/*.png usr/share/icons/hicolor/128/apps/
+debian/ico/256/*.png usr/share/icons/hicolor/256/apps/
+debian/ico/1024/*.png usr/share/icons/hicolor/1024/apps/
+
 
 
 
